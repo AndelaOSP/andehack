@@ -11,7 +11,11 @@
     paths: {
       public: 'public/**',
       jade: ['!app/shared/**', 'app/**/*.jade'],
-      scripts: 'app/**/*.js',
+      scripts: [
+        'app/scripts/**/*.js',
+        'tests/**/**/**.js',
+        'server/**/**/**/*.js'
+      ],
       styles: 'app/styles/*.+(less|css)',
       images: 'app/images/**/*',
       staticFiles: [

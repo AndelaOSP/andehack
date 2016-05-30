@@ -1,6 +1,9 @@
 {
-  "strict":true,
-  "mocha":true,
-  "esnext":true,
-  "maxlen":80
+  "strict": true,
+  "mocha": true,
+  "esnext": true,
+  "maxlen": 80,
+  "predef": [
+    "angular"
+  ]
 }
