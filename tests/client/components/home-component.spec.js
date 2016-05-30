@@ -9,7 +9,7 @@
   describe('Home component', function() {
     context('When The app is Bootstaped', function() {
       it('Should retur true', function() {
-        expect(true).to.be.true;
+        expect(true).to.be.eq(true);
       });
     });
   });
