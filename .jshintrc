@@ -1,5 +1,6 @@
 {
   "strict":true,
   "mocha":true,
-  "esnext":true
+  "esnext":true,
+  "maxlen":80
 }

@@ -3,26 +3,15 @@
   // require gulp tasks and modules
   require('require-dir')('./gulp');
   const gulp = require('gulp');
-  const options = {
-    build: {
-      tasks:['jade', 'less', 'static-files', 'images', 'browserify', 'bower'],
-      destination: 'public'
-    }
-  };
+  const sync = require('./gulp/config').sync;
 
-
-  // -------------------------------------
-  //   Task: Build
-  // -------------------------------------
-
-  gulp.task( 'build', function() {
-
-    options.build.tasks.forEach( function( task ) {
-      gulp.start( task );
-    } );
-
+  gulp.task('default', ['build', 'nodemon'], () => {
+    sync.init(null, {
+      proxy: 'http://localhost:3000',
+      files: ['public/**/*.*'],
+      browser: 'google chrome',
+      port: 3001,
+    });
   });
-
-
 
 })();

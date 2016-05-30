@@ -1,11 +1,6 @@
 (() => {
   'use strict';
-  const ENV = process.env.NODE_ENV || 'development';
   const browserSync = require('browser-sync').create();
-
-  if (ENV === 'development') {
-    require('dotenv').load();
-  }
 
   module.exports = {
     source: require('vinyl-source-stream'),

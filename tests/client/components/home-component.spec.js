@@ -8,7 +8,9 @@
   // tests
   describe('Home component', function() {
     context('When The app is Bootstaped', function() {
-      expect(true).to.be.true;
+      it('Should retur true', function() {
+        expect(true).to.be.true;
+      });
     });
   });
 })();
