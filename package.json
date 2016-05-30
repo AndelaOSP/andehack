@@ -1,0 +1,46 @@
+{
+  "name": "angular-kickstart",
+  "version": "1.0.0",
+  "description": "Angular application template",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andela-thomas/Angular-kickstart.git"
+  },
+  "keywords": [
+    "Angular",
+    "template",
+    "Angular",
+    "Kickstart",
+    "Angular-kickstart"
+  ],
+  "author": "Nyambati Thomas <thomas.nyambati@andela.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andela-thomas/Angular-kickstart/issues"
+  },
+  "homepage": "https://github.com/andela-thomas/Angular-kickstart#readme",
+  "devDependencies": {
+    "browser-sync": "^2.12.10",
+    "browserify": "^13.0.1",
+    "dotenv": "^2.0.0",
+    "gulp": "^3.9.1",
+    "gulp-bower": "0.0.13",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-less": "^3.1.0",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.9.2",
+    "require-dir": "^0.3.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

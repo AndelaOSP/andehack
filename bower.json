@@ -1,0 +1,26 @@
+{
+  "name": "angular-kickstart",
+  "description": "Angular application template",
+  "main": "index.js",
+  "authors": [
+    "Nyambati Thomas <thomas.nyambati@andela.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Angular",
+    "template",
+    "Angular",
+    "Kickstart",
+    "Angular-kickstart"
+  ],
+  "homepage": "https://github.com/andela-thomas/Angular-kickstart",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ]
+}
