@@ -1,0 +1,2 @@
+# Angular-kickstart
+Angular template
