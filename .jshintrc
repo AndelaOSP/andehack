@@ -4,6 +4,7 @@
   "esnext": true,
   "maxlen": 80,
   "predef": [
-    "angular"
+    "angular",
+    "expect"
   ]
 }

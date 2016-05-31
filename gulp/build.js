@@ -1,22 +1,20 @@
-(()=>{
+(() => {
   'use strict';
   const gulp = require('gulp');
-  const options = {
-    build: {
-      tasks:['jade', 'less', 'static-files', 'images', 'browserify', 'bower'],
-      destination: 'public'
-    }
+  const build = {
+    tasks: ['jade', 'less', 'static-files', 'images', 'browserify', 'bower']
   };
+
 
   // -------------------------------------
   //   Task: Build
   // -------------------------------------
 
-  gulp.task( 'build', function() {
+  gulp.task('build', function () {
 
-    options.build.tasks.forEach( function( task ) {
-      gulp.start( task );
-    } );
+    build.tasks.forEach(function (task) {
+      gulp.start(task);
+    });
 
   });
 

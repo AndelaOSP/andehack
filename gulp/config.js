@@ -9,7 +9,7 @@
     buffer: require('vinyl-buffer'),
     sync: browserSync,
     paths: {
-      public: 'public/**',
+      public: ['!/public/lib/**/**/**/**', 'public/**'],
       jade: ['!app/shared/**', 'app/**/*.jade'],
       scripts: [
         'app/scripts/**/*.js',

@@ -6,11 +6,8 @@
   const sync = require('./gulp/config').sync;
 
   gulp.task('default', ['build', 'nodemon', 'watch'], () => {
-    sync.init(null, {
-      proxy: 'http://localhost:3000',
-      files: ['public/**/*.*'],
-      browser: 'google chrome',
-      port: 3001,
+    sync.init({
+      server: './public',
     });
   });
 
