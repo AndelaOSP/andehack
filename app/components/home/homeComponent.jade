@@ -1,37 +1,39 @@
+#index-banner.parallax-container
+  .section.no-pad-bot
+    .container
+      h1.header.center.teal-text.text-lighten-2 Hack4Ops Hackathon
+      .row.center
+        h5.header.col.s12.light A hackathon dedicated to building tools for the Ops department
+      .row.center
+        a#download-button.btn-large.waves-effect.waves-light.teal.lighten-1(ng-click="auth.login()") Get Started
+  .parallax
+    img()
 .container
   .row
-  form.col.s12
-    .row
-      .input-field.col.s6
-        input#first_name.validate(placeholder='Placeholder', type='text')
-        |
-        label(for='first_name') First Name
-      .input-field.col.s6
-        input#last_name.validate(type='text')
-        |
-        label(for='last_name') Last Name
-    .row
-      .input-field.col.s12
-        input#disabled.validate(disabled='', value='I am not editable', type='text')
-        |
-        label(for='disabled') Disabled
-    .row
-      .input-field.col.s12
-        input#password.validate(type='password')
-        |
-        label(for='password') Password
-    .row
-      .input-field.col.s12
-        input#email.validate(type='email')
-        |
-        label(for='email') Email
-    .row
-      .col.s12
-        | This is an inline input field:
-        .input-field.inline
-          input#email.validate(type='email')
-          |
-          label(for='email', data-error='wrong', data-success='right') Emaild
-
-
-  btn.btn.btn-primary(ng-click="$ctrl.createTeam()")
+    .col.s12.m4
+      .icon-block
+        h2.center.brown-text
+          i.material-icons alarm_on
+        h5.center When?
+        p.light
+          strong From:
+          |  Friday, March 3, 6.00 pm
+          br
+          strong To:
+          |  Saturday, March 4, 2.00 pm
+    .col.s12.m4
+      .icon-block
+        h2.center.brown-text
+          i.material-icons favorite_border
+        h5.center Theme
+        p.light
+          | The theme for this quarter&apos;s hackathon is
+          em Hacking for Ops
+          | . The aim is to build tools that will help the Ops department in execuring their duties effectively.
+    .col.s12.m4
+      .icon-block
+        h2.center.brown-text
+          i.material-icons lightbulb_outline
+        h5.center Get started
+        p.light
+          | You can get started by signing up to book your spot. You can then create a team or join an existing team.
