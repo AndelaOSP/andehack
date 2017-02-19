@@ -2,7 +2,7 @@
   'use strict';
   const gulp = require('gulp');
   const build = {
-    tasks: ['jade', 'less', 'static-files', 'images', 'browserify', 'bower']
+    tasks: ['bower', 'jade', 'less', 'static-files', 'images', 'browserify']
   };
 
 
@@ -10,9 +10,9 @@
   //   Task: Build
   // -------------------------------------
 
-  gulp.task('build', function () {
+  gulp.task('build', function() {
 
-    build.tasks.forEach(function (task) {
+    build.tasks.forEach(function(task) {
       gulp.start(task);
     });
 

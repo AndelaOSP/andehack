@@ -12,11 +12,11 @@
       public: ['!/public/lib/**/**/**/**', 'public/**'],
       jade: ['!app/shared/**', 'app/**/*.jade'],
       scripts: [
-        'app/scripts/**/*.js',
+        'app/**/**/*.js',
         'tests/**/**/**.js',
         'server/**/**/**/*.js'
       ],
-      styles: 'app/styles/*.+(less|css)',
+      styles: 'app/**/**/*.+(less|css)',
       images: 'app/images/**/*',
       staticFiles: [
         '!app/**/*.+(less|css|js|jade)',
